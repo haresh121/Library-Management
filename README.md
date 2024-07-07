@@ -16,7 +16,7 @@ This Library Management System is a console-based application that allows users 
     - Log operations for adding, updating, deleting, and checking in/out books.
 
 ## Project Structure
-
+```
 app/
 ├── models/
 │ ├── init.py
@@ -38,7 +38,7 @@ tests/
 ├── test_user_manager.py
 ├── test_checkout_manager.py
 main.py
-
+```
 
 To run the application, run the following snippet
 ```sh
