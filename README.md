@@ -19,19 +19,20 @@ This Library Management System is a console-based application that allows users 
 ```
 app/
 ├── models/
-│ ├── init.py
-│ ├── book.py
-│ ├── user.py
+│ ├── __init__.py
+│ ├── models.py
 ├── storage/
-│ ├── init.py
+│ ├── __init__.py
 │ ├── storage.py
 ├── managers/
-│ ├── init.py
-│ ├── book_manager.py
-│ ├── user_manager.py
-│ ├── checkout_manager.py
+│ ├── __init__.py
+│ ├── book.py
+│ ├── user.py
+├── operations/
+| ├── __init__.py
+| ├── check.py
 tests/
-├── init.py
+├── __init__.py
 ├── test_models.py
 ├── test_storage.py
 ├── test_book_manager.py
